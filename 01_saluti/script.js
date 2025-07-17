@@ -4,11 +4,11 @@ const userName = 'Mario';
 
 
 // Dichiara la funzione qui.
-/*
+
 function greet(name){
     return `Ciao ${name}`
 }
-*/
+
 
 /*
 const greet = (name) => {
