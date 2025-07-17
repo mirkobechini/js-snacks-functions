@@ -5,8 +5,38 @@ const names = ["Anna", "Luca", "Marco", "Adele", "Giovanni", "Alessandra"];
 
 // Dichiara la funzione qui.
 
+function firstLetter(array){
+    const initials = []
+    for(let i = 0; i < array.length; i++){
+        const thisItem = array[i]
+        initials[i] = thisItem[0]
+    }
+    return initials
+}
+
+/*
+const firstLetter = (array) => {
+    const initials = []
+    for(let i = 0; i < array.length; i++){
+        const thisItem = array[i]
+        initials[i] = thisItem[0]
+    }
+    return initials
+}
+
+const firstLetter = array => {
+    const initials = []
+    for(let i = 0; i < array.length; i++){
+        const thisItem = array[i]
+        initials[i] = thisItem[0]
+    }
+    return initials
+}
+*/
+
 
 // Invoca la funzione qui e stampa il risultato in console
+console.log(firstLetter(names));
 
 
 
