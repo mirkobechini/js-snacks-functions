@@ -10,6 +10,7 @@ const name = 'Mario';
 
 // Dichiara la funzione qui.
 function greet(name) {
+    const hour = () => document.lastModified[11]+document.lastModified[12]
     if (hour <= 13) {
         return `Buongiorno ${name}`
     } else if (hour <= 17) {
@@ -19,6 +20,7 @@ function greet(name) {
 }
 /*
 const greet = (name) => {
+    const hour = () => document.lastModified[11]+document.lastModified[12]
     if (hour <= 13) {
         return `Buongiorno ${name}`
     } else if (hour <= 17) {
@@ -28,6 +30,7 @@ const greet = (name) => {
 }
 
 const greet = name => {
+    const hour = () => document.lastModified[11]+document.lastModified[12]
     if (hour <= 13) {
         return `Buongiorno ${name}`
     } else if (hour <= 17) {
@@ -40,7 +43,6 @@ const greet = name => {
 */
 
 // Invoca la funzione qui e stampa il risultato in console
-const hour = () => document.lastModified[11]+document.lastModified[12]
 console.log(greet(name));
 
 
