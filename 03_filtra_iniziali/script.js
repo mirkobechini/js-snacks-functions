@@ -4,28 +4,28 @@ const names = ["Anna", "Luca", "Marco", "Adele", "Laura", "Alessandra"];
 
 
 // Dichiara la funzione qui.
-function nameFromLetter(array, letter){
-    const arrayFiltered = []
-    for(let i = 0; i < array.length; i++){
-        const thisItem = array[i]
+function nameFromLetter(list, letter){
+    const listFiltered = []
+    for(let i = 0; i < list.length; i++){
+        const thisItem = list[i]
         if(thisItem[0] === letter){
-            arrayFiltered.push(thisItem)
+            listFiltered.push(thisItem)
         }
     }
-    return arrayFiltered
+    return listFiltered
 }
 
 /*
 
-const nameFromLetter = (array, letter) => {
-    const arrayFiltered = []
-    for(let i = 0; i < array.length; i++){
-        const thisItem = array[i]
+const nameFromLetter = (list, letter) => {
+    const listFiltered = []
+    for(let i = 0; i < list.length; i++){
+        const thisItem = list[i]
         if(thisItem[0] === letter){
-            arrayFiltered.push(thisItem)
+            listFiltered.push(thisItem)
         }
     }
-    return arrayFiltered
+    return listFiltered
 }
 
 */
