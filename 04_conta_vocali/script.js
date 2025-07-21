@@ -6,6 +6,20 @@ const word = 'javascript';
 // Dichiara la funzione qui.
 function vowelsNum(word){
     let occurances = 0
+    const vowel = ["a", "e", "i", "o", "u"]
+    for(let i = 0; i < word.length; i++){
+        const letter = word[i]
+        if(vowel.includes(letter)){
+            occurances++
+        }
+    }
+    return occurances
+
+}
+
+/*
+function vowelsNum(word){
+    let occurances = 0
     for(let i = 0; i < word.length; i++){
         const letter = word[i]
         if(letter === 'a' || letter === 'e' || letter === 'i' || letter === 'o' || letter === 'u'){
@@ -16,7 +30,8 @@ function vowelsNum(word){
 
 }
 
-/*
+
+
 const vowelsNum = (word) => {
     let occurances = 0
     for(let i = 0; i < word.length; i++){
@@ -40,6 +55,38 @@ const vowelsNum = word => {
     return occurances
 
 }
+
+
+###### With For ######
+
+const vowelsNum => (word){
+    let occurances = 0
+    const vowel = ["a", "e", "i", "o", "u"]
+    for(let i = 0; i < word.length; i++){
+        const letter = word[i]
+        if(vowel.includes(letter)){
+            occurances++
+        }
+    }
+    return occurances
+
+}
+
+const vowelsNum => word{
+    let occurances = 0
+    const vowel = ["a", "e", "i", "o", "u"]
+    for(let i = 0; i < word.length; i++){
+        const letter = word[i]
+        if(vowel.includes(letter)){
+            occurances++
+        }
+    }
+    return occurances
+
+}
+
+    
+
 
 
 
